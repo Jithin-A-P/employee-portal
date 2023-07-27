@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="icon" type="image/x-icon" href="/images/icon.svg" />
+      <title>Create Employee</title>
+    </head>
+  </head>
+  <body>
+    <nav>
+      <img class="navbar-logo" src="images/kv-logo.png" alt="KeyValue" />
+    </nav>
+    <main>
+      <div class="nav-drawer">
+        <div class="nav-drawer-item">
+          <div class="nav-item-icon">
+            <img src="images/icon.svg" alt="Employee Icon" />
+          </div>
+          <p class="nav-item-text">Employee List</p>
+        </div>
+      </div>
+      <div class="create-employee-container">
+        <div class="card">
+          <h2>Create Employee</h2>
+        </div>
+        <div class="card">
+          <form class="form" action="/">
+            <div class="form-card">
+              <div class="form-input">
+                <label for="employee-name">Employee Name</label>
+                <input
+                  class="text-input"
+                  type="text"
+                  name="employee-name"
+                  id="employee-name"
+                  placeholder="Employee Name"
+                />
+              </div>
+              <div class="form-input">
+                <label for="employee-id">Employee Id</label>
+                <input
+                  class="text-input"
+                  type="text"
+                  name="employee-id"
+                  id="employee-id"
+                  placeholder="Employee Id"
+                />
+              </div>
+              <div class="form-input">
+                <label for="joining-date">Joining Date</label>
+                <input
+                  class="text-input"
+                  type="date"
+                  name="joining-date"
+                  id="joining-date"
+                  placeholder="Joining Date"
+                />
+              </div>
+              <div class="form-input">
+                <label for="role">Role</label>
+                <select class="text-input" type="text" name="role" id="role">
+                  <option value="defaule">Choose Role</option>
+                  <option value="associate-software-developer">
+                    Associate Software Developer
+                  </option>
+                </select>
+              </div>
+              <div class="form-input">
+                <label for="status">Status</label>
+                <select
+                  class="text-input"
+                  type="text"
+                  name="status"
+                  id="status"
+                >
+                  <option value="default">Status</option>
+                </select>
+              </div>
+              <div class="form-input">
+                <label for="expreience">Expreience</label>
+                <input
+                  class="text-input"
+                  type="text"
+                  name="expreience"
+                  id="expreience"
+                  placeholder="Expreience"
+                />
+              </div>
+              <div class="form-input">
+                <label for="address">Address</label>
+                <input
+                  class="text-input"
+                  type="text"
+                  name="address"
+                  id="address"
+                  placeholder="Address"
+                />
+              </div>
+            </div>
+            <div class="button-container">
+              <div class="primary-button form-button">Submit</div>
+              <div class="secondary-button form-button">Cancel</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
