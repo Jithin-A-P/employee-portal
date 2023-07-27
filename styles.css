@@ -83,6 +83,7 @@ div {
   padding-left: 20px;
   font-family: sans-serif;
   font-weight: 600;
+  font-size: 14pt;
 }
 
 .login-img-container {
@@ -120,7 +121,7 @@ div {
 .form-input {
   flex-direction: column;
   padding: 20px 40px;
-  width: 400px;
+  width: 470px;
 }
 
 .form-input input, select {
@@ -141,9 +142,10 @@ div {
   align-items: center;
   justify-content: center;
   margin: 20px;
-  padding: 20px 8px;
   min-width: 150px;
   border-radius: 4px;
+  display: flex;
+  width: 150px;
 }
 
 .text-input:focus,
@@ -189,6 +191,10 @@ div {
   color: #5f5f5f;
 }
 
+.login-button {
+  width: 100%;
+}
+
 .form-text-container {
   flex-direction: column;
 }
@@ -198,11 +204,14 @@ div {
   height: 40px;
   background-color: #03aeee;
   border: none;
-}
+  border-radius: 4px;
+  cursor: pointer;
+} 
 
 .secondary-button {
-  color: #cbccce;
+  color: #7e7e7e;
   height: 40px;
   background-color: #ffffff;
   border: solid 1px #cbccce;
+  cursor: pointer;
 }
